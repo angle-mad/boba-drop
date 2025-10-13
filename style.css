@@ -1,0 +1,113 @@
+/* Page Title Properties */
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 100px;
+    font-family: "san-serif";
+    text-align: center;
+
+}
+
+/* Unlinked Heading Properties */
+h2 {
+    margin: 0;
+    color: lightgray;
+    font-size: 70px;
+    font-family: "Arial";
+    text-align: center;
+
+}
+
+/* Linked Heading Properties */
+a.header {
+    position: static;
+    color: lightgray;
+    font-size: 70px;
+    font-family: "Arial";
+    margin: 0;
+    display: block;
+    text-align: center;
+
+}
+
+/* Link Properties */
+a {
+    font-size: 30px;
+    color: white;
+    display: block;
+
+}
+
+/* Paragraph Properties */
+p {
+    font-size: 50px;
+    font-family: "Arial";
+    color: white;
+    text-align: center;
+}
+
+/* Image Properties */
+img {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 400px;
+    height: 500px;
+
+}
+
+/* Home Background Color */
+body.home {
+    background-color: gray;
+
+}
+
+/* Page 1 Background Color */
+body.page1 {
+    background-color: #4464d9;
+
+}
+
+/* Page 2 Background Color */
+body.page2 {
+    background-color: #294ed0;
+
+}
+
+/* Page 3 Background Color */
+body.page3 {
+    background-color: #5b4194;
+
+}
+
+/* Page 4 Background Color */
+body.page4 {
+    background-color: #4c367b;
+
+}
+
+/* Next Page Left Linked Properties  */
+a.left {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Next Page Right Linked Properties  */
+a.right {
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+/* Next Page Center Linked Properties  */
+a.center {
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
