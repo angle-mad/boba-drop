@@ -5,7 +5,7 @@ h1 {
     font-size: 100px;
     font-family: "san-serif";
     text-align: center;
-
+    text-decoration: underline;
 }
 
 /* Unlinked Heading Properties */
